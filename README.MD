@@ -1,12 +1,14 @@
 # Introduction: 
-The aim of the project is to build Collaborating Filtering System which makes good predictions without having any detailed information about the products, items or services. This system can handle diverse collection of users and products/services and make predictions/ recommendation in real time. 
-For building the collaborating filtering system, well known dataset (Movie Lens) is provided. This system will not only generate the predictions but also project design must be able to handle even larger data set. So, evaluating the performance and predictions with less error are the main goals of project. 
-First task is to build the data structures that can be easily accessed throughout the project and it should not be bulky and give constant access as much as possible from performance point of view. 
-Project is divided in four parts, first part which is design of useful data structures and basic calculation like, mean, median, standard deviation, variance, min, max value, density matrix etc. for any user id. 
-Second, third and fourth parts are continuous development of Mean Prediction, Cosine Distance Based Prediction, Resnick Prediction techniques and testing of these prediction techniques respectively. 
-All graphs, and experiment data and approaches are further explained in detail. 
-Apart from that, I have read white paper by “Pro. Barry Smith” using which Fitem prediction approach is implemented in my solution.  Fitem uses similarity threshold for prediction which strictly restrict the user below threshold. All three implemented methods will also be tested combinedly for checking system robustness and performance. 
+The aim of the project is to build Collaborating Filtering System which makes good predictions without having any detailed information about the products, items or services. This system can handle diverse collection of users and products/services and make predictions/ recommendation in real time.
 
+For building the collaborating filtering system, well known dataset (Movie Lens) is provided. This system will not only generate the predictions but also project design must be able to handle even larger data set. So, evaluating the performance and predictions with less error are the main goals of project.
+
+First task is to build the data structures that can be easily accessed throughout the project and it should not be bulky and give constant access as much as possible from performance point of view.
+
+Project is divided in four parts, first part which is design of useful data structures and basic calculation like, mean, median, standard deviation, variance, min, max value, density matrix etc. for any user id.
+
+Second, third and fourth parts are continuous development of Mean Prediction, Cosine Distance Based Prediction, Resnick Prediction techniques and testing of these prediction techniques respectively.
+ 
 # Execution
 Follow the below steps two run this recomender system
 
