@@ -44,33 +44,5 @@ task_2_Predictions_C_100.csv (Resnick Prediction with 100 neighbourhood size)
 
 8> Output statistics will also display on console.
 
-Package Description:
-/Recom
-/Recom/src
-Computations  //contains all 3 approaches implementation and basic statistics method
-			/Recom/src/Computations/CosineBasedPrediction.java
-			/Recom/src/Computations/MeanItemRatingL1O.java
-			/Recom/src/Computations/ResnickPrediction.java
-			/Recom/src/Computations/Statistics.java
-DataStructures  //Only one DataStructures will be used throughout the project
-			/Recom/src/DataStructures/UsersData.java
-evaluation	//prediction evaluation method is present
-			/Recom/src/evaluation/CombineOutputEvalution.java
-			/Recom/src/evaluation/OutPutEvaluation.java
-execute		//System will execute from this package
-			/Recom/src/execute/ExecuteExperiment.java
-populateData // populate the data structure
-			/Recom/populateData/SrcReader.java
-			
-CombineTestOut //combine test output
-			/Recom/CombineTestOut/task_2_Predictions_C.csv
-			/Recom/CombineTestOut/task_3_Predictions_C_100.csv
-			/Recom/CombineTestOut/task_4_Predictions_C_100.csv
-/Recom/input  //input file folder
-			/Recom/input/100k.dat
-/Recom/output //output of the approach which runs individually
-			/Recom/output/task_2_Predictions.csv
-			/Recom/output/task_3_predictions_100.csv
-			/Recom/output/task_4_predictions_100.csv
 /Recom/task_1_Predictions.csv   //task1 basic calculation like mean median std deviation
 Contains Implemntation of all three Prediction Approach and statistics
